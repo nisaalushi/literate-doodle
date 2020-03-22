@@ -1,0 +1,333 @@
+
+.imagecr {
+height: auto;
+    margin-top: 4%;
+}
+
+a.navbar-brand {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    padding-top: 60px;
+ }
+body {
+
+    @media (prefers-color-scheme: dark) {
+        color:#fff;
+        background-color: #000;
+    }
+    @media (prefers-color-scheme: light) {
+color: #000;
+background-color: #fff;    }
+        
+    
+ }
+ 
+#homesection {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: content-box;
+    padding-bottom: 8vw;
+
+}
+.img-fluid {
+    max-width: 100%;
+     height: auto;
+     object-fit: cover;
+
+}
+.text {
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;                         /* vertical alignment */
+    transform: translate(-50%, -50%); /* precise centering; see link below */
+}
+
+p.homesection1 {
+    font-size: 10vw;
+    color: rgb(61, 83, 129);
+    padding-top: 3vw;
+    font-family:Arial, Helvetica, sans-serif;
+    text-justify: auto;
+}
+
+    
+    
+   
+#centered {
+    position: static;
+    top: 50%;
+    left: 50%;
+    font-size: 5vw;
+    box-sizing: 8vw solid black;}
+
+    element.style {
+        background-position: 50% -129.75px;
+    }
+.big-heading {padding-top: 17vw;
+    font-size: 48px;
+    font-weight: 700;
+}
+    
+        /*------------Promo----------*/
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/4.jpg);
+background-size: cover;
+color: #fff;
+background-attachment: fixed;
+text-align: center;
+padding: 70px;
+font-family:sans-serif;
+font-size: 4vw;
+} 
+
+embed, object, iframe{max-width: 100%;}
+
+container p {
+font-size: 30px;
+}
+
+.item 
+{ 
+position: relative; /* To help the image + text element to get along with the rest of the page*/ 
+width: 100%; /* for IE 6 */ 
+} 
+h2 
+{ 
+position: absolute; /* To place the text on the image*/
+top: 18vw; /* The exact location of the text from the top of the image*/
+left: 25vw; /* Other beautification stuff */
+width: 100%; 
+}
+/* Coloring time */
+h2 span /* decorating the text within the span tag */
+{ 
+color: rgb(31, 28, 28); 
+font: bold 5vw Helvetica, Sans-Serif; 
+letter-spacing: 1px; 
+background: rgb(0, 0, 0); /* fallback color */ 
+background: rgba(0, 0, 0, 0.8);
+text-shadow: -2px -2px 10px #fff,
+2px 2px 10px #fff,
+0 0 20px tomato,
+0 0 40px tomato,
+0 0 60px tomato; 
+padding: 2vw; 
+}
+h2 span.spacer { padding:0 5px; }
+
+/*---------About--------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    
+}
+#about .btn 
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*---------Services---------*/
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/590.jpg);
+background-size: cover;
+background-position: center;
+color: #efefef !important;
+background-attachment: 50px;
+padding-bottom: 50px;
+}
+#services h1{
+    text-align: center;
+    color: #545a5f;
+    padding-bottom: 20px;
+}
+#services h1::after
+{
+    content: '';
+    background: #545454;
+    display: block;
+    height: 3px;
+    width: 40vw;
+    margin: 20px auto 5px;
+}
+#services h3{
+    color: #ffffff;
+}
+.services{
+    margin-top: 40px;
+
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 12px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+ #services p {
+     font-size: 14px;
+     margin-top: 20px;
+     color: #ccc;
+     padding: 1rem;
+ }
+ .services .col-md-3:hover{
+     background: #007bff;
+     cursor: pointer;
+     transition: 0.7s;
+ }
+/*-----kontrolli i zerit-----*/
+#zeri
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+/*------Produktet-----*/
+#produktet h1{
+    text-align: center!important;
+    color: #545a5f;
+    padding-bottom: 20px;
+}
+#produktet h1::after
+{
+    content: '';
+    background: #545454;
+    display: block;
+    height: 3px;
+    width: 23vw;
+    margin: 20px auto 5px;
+}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center; 
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  
+/*------------Get in Touch---------*/
+#contact {
+    background: #d6d5d5;
+    padding-top: 40px ;
+    padding-bottom: 40px;
+    color: #777;
+
+}
+.contact-form{
+    padding: 15px;
+   
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: #999 !important;
+}  
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/*-------maps-------*/
+
+
+#google-maps h1{
+    text-align: center!important;
+    color: #545a5f;
+    padding-bottom: 20px;
+}
+#google-maps h1::after
+{
+    content: '';
+    background: #545454;
+    display: block;
+    height: 3px;
+    width: 45vw;
+    margin: 20px auto 5px;
+}
+
+/*-------Footer-------*/
+#footer{
+    background: #333;
+    color:#fff;
+    padding: 12px;
+}
+#footer .fa {
+    color: white;
+}
+
+
+hr.style17 {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+hr.style17:after {
+	
+	display: inline-block;
+	position: relative;
+    top: -14px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #575555;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+#google-maps p {
+    text-align: center;
+    color: red;
+}
